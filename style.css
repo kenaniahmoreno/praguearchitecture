@@ -92,7 +92,7 @@ background-color:  #32a8a8;
 
 .imgidx {
     height: 85vh;
-    background: url(./images/old\ town\ close\ up.jpg) no-repeat center/cover; 
+    background: url(images/old\ town\ close\ up.jpg) no-repeat center/cover; 
 
 }
 
@@ -348,7 +348,7 @@ background-color:  #32a8a8;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(./images/bridge+castle.jpg) no-repeat center/cover;
+    background: url(images/bridge+castle.jpg) no-repeat center/cover;
 }
 
 .qcontainer form {
