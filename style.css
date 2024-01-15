@@ -1,0 +1,442 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+li, a, button {
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+#prgarch {
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    color: #edf0f1;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.links {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link .links a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link .links a:hover {
+    color: #32a8a8; 
+}
+
+.contactbttn {
+    padding: 9px 25px;
+    background-color: rgba(50,168,168,1);
+    border: none;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    cursor: pointer
+
+}
+
+.contactbttn button:hover {
+    background-color:  rgba(50,168,168,0.8);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-content a:hover {
+background-color:  #32a8a8;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.imgidx {
+    height: 85vh;
+    background: url(./images/old\ town\ close\ up.jpg) no-repeat center/cover; 
+
+}
+
+
+.hiscontainer {
+   padding: 0 100px;
+   display: flex;
+}
+
+.hisbox1 {
+    height: 800px;
+    width: 600px;
+    margin-right: 20px;
+    float: left;
+}
+
+.hisimg1{
+    height: 800px;
+    width: 600px;
+}
+
+.hisbox2 {
+    height: 600px;
+    width: 1000px;
+    margin: 20px 40px;
+}
+
+.historyhead {
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    color: #32a8a8;
+    font-size: 30px;
+
+}
+
+.hisdesc1, .hisdesc2{
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    color: #edf0f1;
+    margin: 40px;
+}
+
+.rencontainer {
+    padding: 0 100px;
+    display: flex;
+ }
+ 
+.renbox1 {
+     height: 750px;
+     width: 1600px;
+     margin-right: 20px;
+}
+
+.renimg1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.renbox2 {
+    height: 600px;
+    width: 1000px;
+    margin-top: 200px;
+    margin-right: 10px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    color: #edf0f1;
+}
+
+.renhead {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #32a8a8;
+}
+
+.comcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.comcontainer div{
+    height: 700px;
+    width: 500px;
+    margin: 30px;
+}
+
+.ziz1, .ziz2 {
+    height: 100%;
+    width: 100%;
+}
+
+.comtext{
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    color: #edf0f1;
+    text-align: center; 
+}
+
+.comhead{
+    margin: 20px 0;
+    color: #32a8a8;
+    font-size: 2rem;
+}
+
+.modcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 500px
+}
+.modbox1 {
+    height: 100px;
+    width: 700px;
+    margin-bottom: 65px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    color: #edf0f1;
+}
+.modbox2{
+    height: 500px;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.modimg1{
+    height: 100%;
+    width: 100%;
+}
+
+.modhead {
+    color:#32a8a8;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.gothcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+.gothhead{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #32a8a8;
+}
+
+
+.vitus {
+    display: flex;
+    justify-content: space-between;
+    height: 440px;
+    width: 1200px;
+    margin: 10px;
+}
+
+.vitusphoto {
+    height: 420px;
+    width: 500px;
+    float: left;
+    margin: 10px;
+}
+
+.vitimg{
+   height: 100%;
+   width: 100%; 
+   object-fit: cover;
+}
+
+.vituscontent {
+    height: 420px; 
+    width: 700px;
+    margin: 10px;
+}
+
+.tyn {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 1200px;
+    margin: 10px;
+}
+
+.tynphoto {
+    height: 330px;
+    width: 500px;
+    float: left;
+    margin: 10px;
+}
+
+.tynimg{
+   height: 100%;
+   width: 100%; 
+   object-fit: cover;
+}
+
+.tyncontent {
+    height: 330px;
+    width: 700px;
+    margin: 10px;
+}
+
+.vituscontent, .tyncontent {
+    color: #edf0f1;
+}
+
+.vitushead, .tynhead{
+    margin-bottom: 5px;
+}
+
+.novcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 500px
+}
+
+.novcontent {
+    height: 100px;
+    width: 700px;
+    margin-bottom: 70px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    color: #edf0f1;
+}
+
+.novphoto {
+    height: 500px;
+    width: 700px;
+    margin-top: 80px;
+}
+
+.novimg {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+}
+
+.novhead {
+    color: #32a8a8;
+    margin-bottom: 5px;
+}
+
+.qcontainer {
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bridge+castle.jpg) no-repeat center/cover;
+}
+
+.qcontainer form {
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    flex-wrap: wrap;
+}
+
+.qheader {
+    color: #edf0f1;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    background: none;
+}
+
+.qcontainer form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+.qcontainer form input::placeholder {
+     color: #ddd;
+}
+
+.qcontainer form #lastname {
+    margin-left: 20px;
+}
+
+.messageheader {
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+    background: none;
+}
+
+.qcontainer form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(194,194,194,0.713);
+}
+
+.qcontainer form #sendbutton {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s
+}
+.qcontainer form #sendbutton:hover {
+    opacity: 0.7;
+}

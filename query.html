@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Outfit:wght@300&display=swap" rel="stylesheet">
+</head>  
+
+<body>
+  <!--navigation bar-->
+  <header>
+    <nav>
+      <ul class="nav_link">
+        <li class="links"><a href="./index.html">Home</a></li>
+        <li class="links"><a href="historyprg.html">History</a></li>
+        <div class="dropdown">
+          <li class="links"><a href="#">Architecture</a></li>
+          <div class="dropdown-content">
+            <a class="archlink" href="./gothic.html">Gothic</a>
+            <a class="archlink" href="./renaissance.html">Renaissance</a>
+            <a class="archlink" href="./artnov.html">Art Noveau</a>
+            <a class="archlink" href="./com.html">Communist</a>
+            <a class="archlink" href="./modern.html">Modern</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <h1 id="prgarch">Prague Architecture</h1>
+    <a class="cta" href="./query.html"><button class="contactbttn">Contact</button></a>
+  </header>
+    
+  <div class="qcontainer">
+        <form action="https://formsubmit.co/kenaniahmoreno@gmail.com"  method="POST">
+            <h2 class="qheader">Contact Us</h2>
+            <input type="hidden" name="access_key" value="6e575bf1-2e70-428b-8e81-8c4489431105">
+            <input type="text" id="firstname" placeholder="First Name" required>
+            <input type="text" id="lastname" placeholder="Last Name">
+            <input type="email" id="email" placeholder="Email" required>
+            <h4 class="messageheader">Your Message Here...</h4>
+            <textarea required></textarea>
+            <input type="submit" value="Send" id="sendbutton">
+        </form>
+  </div>
+</body>
+</html>
